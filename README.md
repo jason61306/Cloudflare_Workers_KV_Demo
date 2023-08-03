@@ -85,7 +85,7 @@ For Example:
 
 Result:
 
-![image](https://github.com/jason61306/Cloudflare_Workers_KV_Demo/blob/master/KV.png)
+![image](https://github.com/jason61306/Cloudflare_Workers_KV_Demo/blob/main/KV.png)
 
 
 
