@@ -1,0 +1,11 @@
+name = "kv_test"
+main = "src/worker.js"
+compatibility_date = "2023-08-01"
+
+# Bind a KV Namespace. Use KV as persistent storage for small key-value pairs.
+# Docs: https://developers.cloudflare.com/workers/runtime-apis/kv
+ [[kv_namespaces]]
+ binding = "parameter"
+ id = "{id}"
+ [vars]
+ DEFAULT_KV_NAMESPACE = "parameter"
